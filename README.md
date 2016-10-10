@@ -1,7 +1,12 @@
-# Hapi-Tutorials
-- A simple chinese hapijs tutorials
-- 一个简易的中文 hapijs 教程
+# Hapi-Tutorials（Hapijs 教程）
+一个简单的中文教程翻译。
+
+第一次翻译英文文档，若是翻译有错或者不恰当，希望大家能够指导。
+
+为了后边的初学者更方便的了解hapijs，同时也希望hapijs能在中国有更好的环境。
+
 ---
+
 ## 身份认证
 
 这份教程兼容`hapi v11.x.x`版本
@@ -181,3 +186,4 @@ server.register(Basic, (err) => {
 最后，`payload`参数可以设置为 `false` 表明，这个装载（该怎么翻译啊-_-#？payload）不能被验证，`'require'`或者 `true`表示必须被验证，`'optional'`表示如果客户端有装载验证信息，则验证必须校验。
 
 `payload`参数只能被用到一个策略中，支持`payload`方法的schema中。
+
